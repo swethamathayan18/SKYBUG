@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+
+    <!-- link to css file -->
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet" 
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="section">
+     <input type="checkbox" id="check"/>
+      <div class="navbar">
+        <div class="logo">
+          <img src="./images/logo.png" alt="Logo"/>
+          <h4>Virtu  Vision  </h4>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SKILLS</a>
+              <ul class="submenu">
+                <li><a href="#">REACT</a></li>
+                <li><a href="#">ANGULAR</a></li>
+                <li><a href="#">VUE</a></li>
+              </ul>
+            </li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">BLOG</a></li>
+          </ul>
+        </div>
+        <label for="check">
+          <i class="fas fa-bars menu-btn"></i>
+          <i class="fas fa-times close-btn"></i>
+        </label>
+      </div>
+      <div class="content">
+        <div class="article">
+          <h1>
+            Web Development <br />
+            & Design
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            iusto mollitia, perspiciatis, excepturi accusantium voluptates.
+          </p>
+          <a href="" class="button">Join Now</a>
+          <div class="social-media">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        
+
+        <div class="form">
+          <div class="form-heading"><p class="heading">LOGIN HERE</p></div>
+          <div class="form-inputs">
+            <input type="text" placeholder="Enter Username"/>
+            <input type="email" placeholder="Enter email"/>
+            <input type="password" placeholder="Enter password"/>
+          </div>
+          <div class="form-content">
+            <p>Don't have an account?</p>
+            <a href="" class="signup">Sign up</a>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </body>
+</html>
